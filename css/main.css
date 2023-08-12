@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    font-family: 'Zilla Slab', serif;
+}
+header {
+    margin: 20px 0px 40px 0px;
+}
+header h2{
+    font-family: 'Great Vibes', cursive !important;
+    font-size: 48px;
+    color: #ff6a23;
+    text-align: center;
+}
+main .btn-tabs{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+main .btn-tabs button{
+    padding: 6px 12px;
+    background-color: #fff;
+    color: #212529;
+    border: 1px solid #212529;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+main .btn-tabs button:hover{
+    background-color: #212529;
+    color: #fff;
+}
+main .card{
+    gap: 16px;
+    border: none;
+    margin-bottom: 40px;
+}
+main .card img{
+    width: 100%;
+    max-width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #212529;
+    border-radius: 8px;
+}
+main .card .card-content .content-header{
+    padding-bottom: 8px;
+    border-bottom: 1px solid #212529;
+}
+main .card .card-content .content-text{
+    margin-top: 20px;
+}
+main .card .card-content .content-header {
+    color: #e00a00;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
